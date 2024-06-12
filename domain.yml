@@ -1,33 +1,33 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - saluer
+  - au_revoir
+  - affirmer
+  - nier
+  - humeur_genial
+  - humeur_malheureux
+  - defis_bot
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_saluer:
+  - text: "Salut ! Comment ça va ?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
+  utter_remonter_moral:
+  - text: "Voici quelque chose pour te remonter le moral :"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_est_ce_que_ca_aide:
+  - text: "Est-ce que ça t'a aidé ?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_heureux:
+  - text: "Super, continue comme ça !"
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_au_revoir:
+  - text: "Au revoir"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_je_suis_un_bot:
+  - text: "Je suis un bot, propulsé par Rasa."
 
 session_config:
   session_expiration_time: 60
