@@ -2,29 +2,29 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: chemin heureux
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: saluer
+  - action: utter_saluer
+  - intent: humeur_genial
+  - action: utter_heureux
 
-- story: sad path 1
+- story: chemin triste 1
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - intent: saluer
+  - action: utter_saluer
+  - intent: humeur_malheureux
+  - action: utter_remonter_moral
+  - action: utter_est_ce_que_ca_aide
+  - intent: affirmer
+  - action: utter_heureux
 
-- story: sad path 2
+- story: chemin triste 2
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: saluer
+  - action: utter_saluer
+  - intent: humeur_malheureux
+  - action: utter_remonter_moral
+  - action: utter_est_ce_que_ca_aide
+  - intent: nier
+  - action: utter_au_revoir
