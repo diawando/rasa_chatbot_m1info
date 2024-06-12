@@ -1,91 +1,91 @@
 version: "3.1"
 
 nlu:
-- intent: greet
+- intent: saluer
   examples: |
+    - salut
+    - bonjour
     - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - bonjour là
+    - bon matin
+    - bonsoir
+    - coucou
+    - salut là
+    - allons-y
+    - salut mec
+    - bonjour bon matin
+    - bonsoir bonsoir
+    - bon après-midi
 
-- intent: goodbye
+- intent: au_revoir
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
+    - à plus
+    - au revoir
+    - à plus tard
+    - bonne nuit
     - bye
-    - goodbye
-    - have a nice day
-    - see you around
+    - au revoir
+    - passe une bonne journée
+    - à la prochaine
     - bye bye
-    - see you later
+    - à plus tard
 
-- intent: affirm
+- intent: affirmer
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
+    - oui
+    - ouais
+    - en effet
+    - bien sûr
+    - ça a l'air bien
     - correct
 
-- intent: deny
+- intent: nier
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - non
+    - non merci
+    - jamais
+    - je ne pense pas
+    - je n'aime pas ça
+    - pas question
+    - pas vraiment
 
-- intent: mood_great
+- intent: humeur_genial
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - parfait
+    - génial
+    - incroyable
+    - je me sens comme un roi
+    - merveilleux
+    - je me sens très bien
+    - je suis génial
+    - je suis incroyable
+    - je vais sauver le monde
+    - super content
+    - extrêmement bien
+    - tellement parfait
+    - tellement bien
+    - tellement parfait
 
-- intent: mood_unhappy
+- intent: humeur_malheureux
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - ma journée a été horrible
+    - je suis triste
+    - je ne me sens pas très bien
+    - je suis déçu
+    - super triste
+    - je suis tellement triste
+    - triste
+    - très triste
+    - malheureux
+    - pas bien
+    - pas très bien
+    - extrêmement triste
+    - tellement triste
+    - tellement triste
 
-- intent: bot_challenge
+- intent: defis_bot
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - es-tu un bot ?
+    - es-tu un humain ?
+    - est-ce que je parle à un bot ?
+    - est-ce que je parle à un humain ?
