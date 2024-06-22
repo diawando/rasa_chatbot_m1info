@@ -28,3 +28,10 @@ stories:
   - action: utter_est_ce_que_ca_aide
   - intent: nier
   - action: utter_au_revoir
+
+- story: interactive_story_1
+  steps:
+  - intent: saluer
+  - action: utter_saluer
+  - intent: defis_bot
+  - action: utter_je_suis_un_bot

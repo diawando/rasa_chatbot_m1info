@@ -1,34 +1,29 @@
-version: "3.1"
-
+version: '3.1'
 intents:
-  - saluer
-  - au_revoir
-  - affirmer
-  - nier
-  - humeur_genial
-  - humeur_malheureux
-  - defis_bot
-
+- affirmer
+- au_revoir
+- defis_bot
+- humeur_genial
+- humeur_malheureux
+- nier
+- saluer
 responses:
   utter_saluer:
-  - text: "Salut ! Comment ça va ?"
-
+  - text: Salut ! Comment ça va ?
   utter_remonter_moral:
-  - text: "Voici quelque chose pour te remonter le moral :"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
+  - text: 'Voici quelque chose pour te remonter le moral :'
+    image: https://i.imgur.com/nGF1K8f.jpg
   utter_est_ce_que_ca_aide:
-  - text: "Est-ce que ça t'a aidé ?"
-
+  - text: Est-ce que ça t'a aidé ?
   utter_heureux:
-  - text: "Super, continue comme ça !"
-
+  - text: Super, continue comme ça !
   utter_au_revoir:
-  - text: "Au revoir"
-
+  - text: Au revoir
   utter_je_suis_un_bot:
-  - text: "Je suis un bot, propulsé par Rasa."
-
+  - text: Je suis un bot, propulsé par Rasa.
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+actions:
+- utter_je_suis_un_bot
+- utter_saluer

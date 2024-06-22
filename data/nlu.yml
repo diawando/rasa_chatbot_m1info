@@ -1,5 +1,4 @@
 version: "3.1"
-
 nlu:
 - intent: saluer
   examples: |
@@ -16,7 +15,6 @@ nlu:
     - bonjour bon matin
     - bonsoir bonsoir
     - bon après-midi
-
 - intent: au_revoir
   examples: |
     - à plus
@@ -24,12 +22,9 @@ nlu:
     - à plus tard
     - bonne nuit
     - bye
-    - au revoir
     - passe une bonne journée
     - à la prochaine
     - bye bye
-    - à plus tard
-
 - intent: affirmer
   examples: |
     - oui
@@ -38,7 +33,6 @@ nlu:
     - bien sûr
     - ça a l'air bien
     - correct
-
 - intent: nier
   examples: |
     - non
@@ -48,7 +42,6 @@ nlu:
     - je n'aime pas ça
     - pas question
     - pas vraiment
-
 - intent: humeur_genial
   examples: |
     - parfait
@@ -64,8 +57,6 @@ nlu:
     - extrêmement bien
     - tellement parfait
     - tellement bien
-    - tellement parfait
-
 - intent: humeur_malheureux
   examples: |
     - ma journée a été horrible
@@ -81,11 +72,10 @@ nlu:
     - pas très bien
     - extrêmement triste
     - tellement triste
-    - tellement triste
-
 - intent: defis_bot
   examples: |
     - es-tu un bot ?
     - es-tu un humain ?
     - est-ce que je parle à un bot ?
     - est-ce que je parle à un humain ?
+    - tu es quoi au juste?
